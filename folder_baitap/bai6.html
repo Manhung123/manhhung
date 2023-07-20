@@ -5,23 +5,53 @@
     <title>Title</title>
 </head>
 <body>
-Username: <input type="text" name="" id="" style="margin-left: 66px"><br> <br>
-Password: <input type="password" name="" id="" style="margin-left: 70px"><br><br>
-City of Employment:    <input type="text" name="" id=""><br><br>
-Web sever:
-<select style="margin-left: 66px">
-    <option>-Choose a sever-</option>
-</select><br><br>
-plese specify your role:
-<input type="radio"> Admin <br>
-<input type="radio" style="margin-left: 158px"> Engineer <br>
-<input type="radio" style="margin-left: 158px"> Manager <br>
-<input type="radio" style="margin-left: 158px"> Guest <br>
-Single Sign-on the following:
-<input type="checkbox"> Mail <br>
-<input type="checkbox" style="margin-left:198px"> Payroll <br>
-<input type="checkbox" style="margin-left: 198px"> Self-service <br>
-<button style="margin-left: 150px">Login</button>
-<button style="margin-left: 50px">Reset</button>
+<form method="post">
+<table style="width: 300px">
+    <tr>
+        <td>Username</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td>City of Employment</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Web sever</td>
+        <td>
+            <select>
+                <option value="">-Choose a sever</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Please specify your role</td>
+        <td>
+            <input type="radio" name="role"> Admin <br>
+            <input type="radio" name="role"> Engineer <br>
+            <input type="radio" name="role"> Manager <br>
+            <input type="radio" name="role"> Guest <br>
+        </td>
+    </tr>
+    <tr>
+        <td>Single Sign-on the follwing</td>
+        <td>
+            <input type="checkbox" name="" id=""> mail <br>
+            <input type="checkbox" name="" id=""> Payroll <br>
+            <input type="checkbox" name="" id=""> self-service <br>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button>login</button>
+            <button>reset</button>
+        </td>
+    </tr>
+</table>
+</form>
 </body>
 </html>

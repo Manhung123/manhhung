@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+- khái niệm lặp : + Vòng lặp cho phép tự động thực hiện một khối lệnh lặp đi lặp
+lại nhiều lần dựa vào một điều kiện cho trước
++ vòng lặp cho phép lâp trìnhh viên viết mã nguồn ngắn gọn hơn nếu các dòng mã giống nhau
++ vong lặp gồm : * Một điều kiện để đánh giá (lúc nào thì lặp?)
+* Một khối lệnh để thực thi (lặp cái gì?)
+ + Các vòng lặp hỗ trợ bởi JavaScript: for, while và do-while
+- ví dụ : for (initial-action; loop-continuation-condition;
+action-after-each-iteration) {
+statement(s);
+}
+trong đó : initial-action: là các câu lệnh được thực thi một lần duy nhất khi vòng lặp bắt đầu chạy
+• loop-continuation-condition: là biểu thức điều kiện để xác định xem vòng lặp có được tiếp tục
+hay không
+• statement(s): là khối lệnh sẽ được thực thi trong mỗi lần lặp
+• action-after-each-iteration: là các câu lệnh được thực thi sau mỗi lần lặp
+- break : let test = " "
+          let a;
+          for (a == 0; a < 5) {
+          if ( a === 3 ) {
+             break;
+}
+trong đó break sẽ thoát khỏi vòng lặp mà ko cần đến vong cuối
+- continue :  let test = " "
+let a;
+for (a == 0; a < 5) {
+if ( a === 3 ) {
+continue;
+}
+trong đó continue là để nhẩy qa 1 khối lệnh để bắt đầu dòng tiếp theo .
+- vòng lặp for lồng nhau : ví dụ for ( let a = 0 ; a < 5 ) {
+                                  for ( let a = 0 ; a < 10) {
+                                  consolog.log ( "" )
+}
+- Điểm khác biệt giữa while và do-while: Thân
+của vòng lặp do-while được thực hiện ít nhất là
+một lần. Kể cả khi biểu thức điều kiện trả về
+sai.
+
+</body>
+</html>

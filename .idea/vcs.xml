@@ -2,5 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ham" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/baitapmang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/baitapvenha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chuanbibai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chuanbimang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/folder_baitap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lambaitapmang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vòng lặp" vcs="Git" />
   </component>
 </project>

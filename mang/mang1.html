@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// let name 1 = 'linh'
+// let name 2 = 'dan'
+// let name 3 = 'de'
+
+let studentC06 = ['linh', 'dan', 'loc']
+
+// cac khai niem luu y :
+/* độ dài của mảng : có 4 phần tử => length = 4; alert(studentC06.length)
+   vị trí : là nơi các phần tử nằm , bắt đầu từ 0, phần tử cuối cngf là vị trí length
+   phần tử : là các giá trị trong mảng
+ */
+// alert(student[2]) // lấy ra giá trị của studentC06 ở vị trí thứ 2 => dân
+
+// cách2 : let ages = new Array(1,2,3,5,7);
+
+studentC06[1] = 'duc'; // thay thế giá trị tại vị trí thứ 1 của studentC06
+for (let i = 0; i < studentC06.length; i++) {
+    console.log(studentC06[i])
+}
+// let abc = [1, 'linh', true, 0.5, {name: 'dan'}]
+// mangr trong js có thể lưu trữ nhiều kiểu dữ liệu
+
+let studentC06 = []
+studentC06.push('dan');
+studentC06.push('mai');
+studentC06.push('lam');
+console.log(studentC06)
+// push () : thêm phần tử cuối mảng
+// tăng độ dài mảng
+studentC06.pop();
+consolog.log("sau khi xóa =====>")
+consolog.log(studentC06)
+// pop xóa phần tử cuối mảng
+// giảm độ dài mảng
+
+console.log("sau khi sử dụng join =====>")
+console.log(studentC06.join(';')) // chuyển từ mảng thành chuỗi
+
+let studentC07 = ['linh', 'nhu anh'];
+let gopmang = studentC06.concat(studentC07)
+console.log(gopmang); //gộp 2 mảng lại với nhau
+
+let arr = [1,3,2,6,5]; // sắp xếp mảng
+console.log("mảng sau khi đuọc sắp xếp")
+console.log(arr.sort())
+
+let studentC08 = studentC06.concat(studentC07) noi 2 mang vao studentC08
+</script>
+</body>
+</html>

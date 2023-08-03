@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let so = Number.parseInt(Math.random() * 10);
+    console.log(so);
+    let sonhap;
+    let count = 0;
+    do {
+        sonhap = +prompt(" doan di :))")
+        count++;
+        if (sonhap === 0) {
+            alert("ban da an 1 ti")
+        }
+        if (count === 3) {
+            alert("ban da thua")
+            break;
+        }
+    } while (so !== sonhap);
+</script>
+</body>
+</html>

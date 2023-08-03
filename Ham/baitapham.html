@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--1. Viết hàm nhập vào một mảng, trả về tổng các phần tử trong mảng.Sử dụng hàm.-->
+<script>
+     // ['1','2']
+    // function tinhTong (mang) {
+    //     let tong = 0
+    //     for (let i = 0; i < mang.length; i++) {
+    //         tong = tong + ( +mang[i] )
+    //     }
+    //     return tong
+    // }
+    //
+    //  let nhap = prompt("nhap day so")
+    //  let arr = nhap.split("")
+    //
+    // alert(tinhTong(arr))
+
+
+     // 2. Viết hàm nhập vào một mảng, trả về tổng các phần tử lẻ trong mảng. Sử dụng hàm.
+     // function tongle (mang) {
+     //     let tong = 0;
+     //     for (let i = 0; i < mang.length; i++) {
+     //        if (mang[i] % 2 !== 0)  {
+     //            tong = tong + ( +mang[i] )
+     //        }
+     //     } return tong
+     // }
+     // let nhap = prompt("nhap day so")
+     // let arr = nhap.split("")
+     // alert(tongle(arr))
+
+
+     // 3. Viết hàm nhập vào một mảng, trả về số lượng các phần tử lẻ trong mảng. Sử dụng hàm
+
+     // function soLuongLe (numbers) {
+     //     for (let i = 0; i < numbers.length; i++) {
+     //         if (numbers[i] % 2 !== 0) {
+     //             dem = dem + 1;
+     //         }
+     //     } return dem
+     // }
+     // let nhap = prompt("nhap so")
+     // let arr = nhap.split("")
+     // let dem = 0;
+     // alert(soLuongLe(arr))
+
+
+     // 4. sử dụng hàm ở ý 2 và 3 . tính trung bình các phần tử lẻ trong mảng
+
+     // function tinhTrungBinh (tb) {
+     //     for (let i = 0; i < tb.length; i++) {
+     //         for (let j = 0; j < tb[i].length; j++) {
+     //             let tong = 0;
+     //             let dem = 0;
+     //             if (tb[i][j] % 2 !== 0) {
+     //                 tong = tong + ( +tb[i][j]);
+     //                 dem = dem + 1;
+     //             }
+     //         }
+     //     } return tong/dem
+     // }
+     // let numbers1 = +prompt("nhap so 1")
+     // let numbers2 = +prompt("nhap so 2")
+     // let arr1 = numbers && numbers2.split("")
+     // alert(tinhTrungBinh(arr(tong/dem))) chua ra ket qua
+
+
+     // c2 :
+     // function getAvg(arr) {
+     //     let avg = tinhtongle(arr) / demsoluong(arr);
+     //     return avg;
+     // }
+     //
+     // alert()
+
+     //5. viết hàm nhập vào 1 mảng và 1 số x , tìm x trong mảng nếu có trả về vị trí , không thì trả về -1 . sử dụng hàm
+
+// function find() {
+//     let x = prompt("nhap vao gia tri x")
+//     let index = arr.indexOf();
+//     if (index === x) {
+//         console.log('gia tri' +x+ 'nam o vi tri thu: ' );
+//     } else {
+//         console.log('-1');
+//     }
+// }
+// let arr;
+//      console.log(find()) chua ra kp
+
+
+     // c2 :
+     // function timViTri(mang, x) {
+     //     for (let i = 0; i < mang.length; i++) {
+     //         if (mang[i] === x) {
+     //             return i;
+     //         }
+     //     }
+     //     return -1;
+     // }
+     // alert(timViTri([2,4,7,-1 ],8))
+     // 6. Viết hàm nhận vào 1 mảng. Sử dụng hàm. tra ve max
+
+    //  function TimMax(arr) {
+    //      let max = 0;
+    //      for (let i = 0; i < arr; i++) {
+    //          if (arr[i]) === max) {
+    // max = arr[i]
+    //          }
+    //      } return max;
+    //  }
+    //  alert(timMax([-1, -4, -6, -1)])
+
+     // function string (mang) {
+     //     for (let i = 0; i < mang.length; i++) {
+     //
+     //     } return mang
+     // }
+     // let nhap = []
+     // console.log(string(nhap))
+
+
+
+
+
+
+     // 7. Sử dụng hàm ở ý 5 và 6. Viết hàm nhận vào một mảng, hiển thị vị trí
+
+     // function hienThiRaViTriMax(arr) {
+     //     let max = timMax(arr)
+     //     let viTriMax = TimViTrix(arr, max);
+     //     alert(TimViTriMax);
+     // }
+     // hienThiRaViTriMax([2,3,5]);
+     // của các phần tử có giá trị bằng max trong mảng.
+     // 8. Viết hàm nhận vào một số, nếu là số nguyên tố, trả về true, không thì false. Sử dụng hàm.
+
+     // function kiemTraSoNguyenTo(x) {
+     //     if (x < 2) {
+     //         return false;
+     //     } else if (x === 2) {
+     //         return true;
+     //     } else {
+     //         for (let i = 0; i < x; i++) {
+     //             if (x % i === 0) {
+     //                 return false
+     //     }
+     //
+     //             }
+     //         return true;
+     //         }
+     //
+     // }
+     // 9. Sử dụng hàm ở 8. Viết hàm nhận 1 mảng, trả về số lượng số nguyên tố trong mảng. Sử dụng hàm.
+
+     // function DemSlSoNguyenTo(arr) {
+     //     let count = 0;
+     //     for (let i = 0; i < arr.length; i++) {
+     //         if (KiemTraSoNguyenTo(arr[i])) {
+     //             count++;
+     //         }
+     //     }
+     //     return count;
+     // }
+     // // 10. Sử dụng hàm ở 8. Viết hàm nhận vào a và b. In ra số nguyên tố từ a đến b. Sử dụng hàm.
+
+
+     function InSoNguyenTo(a, b) {
+         for (let i = 0; i <= b ; i++) {
+             if (KiemTraSoNguyenTo(i)) {
+                 console.log(i)
+             }
+         }
+     }
+     InSoNguyenTo(5, 20);
+// bài trên james
+     // câu 1: Tạo hàm alertMessage() hiển thị hộp thoại chứa chuỗi  "Xin chao".
+     //     Gọi hàm từ trong phần <body> của trang web.
+
+     // function message () {
+     //     let arr = "xin chao"
+     //     alert(arr)
+     // }
+     // message()
+
+
+     // Bài 4: Thêm các hàm alert() vào những vị trí thích hợp trong đoạn mã sau để
+     // bạn có thể nhìn thấy giá trị của biến result trước và sau lời gọi hàm. Đoạn mã có dạng như sau:
+     // function addNumbers() {
+     //     firstNum = 4;
+     //     secondNum = 8;
+     //     result = firstNum + secondNum;
+     //     alert(result)
+     //     return result;
+     // }
+     // result = 0;
+     // result = addNumbers();
+
+
+     
+</script>
+</body>
+</html>
